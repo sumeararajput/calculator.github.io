@@ -1,0 +1,424 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-weight: bold;
+    
+}
+ body{
+   background-image: url(https://marketplace.canva.com/EAFUFiGX5ek/1/0/1600w/canva-colorful-watercolor-floral-linktree-background-qRHfsd-4Nmc.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+   
+} 
+
+.container{
+ 
+  height: 100vh;
+}
+.h1{
+   color:darkblue;
+   margin-top: 10px;
+}
+.frame{
+   width: 650px;
+   height: 600px;
+   border: 3px solid rgba(102, 51, 153, 0.432);
+   perspective: 700px;
+}
+.shape{
+   width: 550;
+   height:600px ;
+   margin-top: -40px;
+   background-color: rgba(0, 0, 255, 0.103);
+   transition: all 3s ease;
+}
+.shape:hover{
+   transform: rotateX(20deg);
+}
+
+
+.row{
+    border: 1px solid;
+    border-radius: 10px;
+    height: 530px;
+    width: 300px;
+   /* background-color: rgb(144, 238, 144); */
+    /* background-color: rgba(0, 255, 255, 0.897); */
+    background-color: rgba(0, 0, 0, 0.247);
+    
+    margin-top: 40px;
+  
+}
+.box{
+    height: 100px;
+    width: 280px;
+   border: 1px solid;
+    border-radius: 10px;
+    margin-top: 10px;
+    background-color: white;
+}
+.boxh2{
+ text-align: right;
+ margin-top: 50px;
+ margin-right: 15px;
+ font-size: 40px;
+}
+
+.sec1{
+   margin-top: 30px;
+}
+.btnsec1{
+    border-radius: 100%;
+    border: 10px;
+    padding: 20px 19px;
+    margin-left: 13px;
+    font-size: 15px;
+    background-color: rgba(0, 0, 0, 0.466);
+    color: white;
+}
+.btnsec1:hover{
+     cursor: pointer;
+     background-color: black;
+}
+.sec2{
+    margin-top: 20px;
+ }
+ .btnsec2{
+    border-radius: 100%;
+    border: 10px;
+    padding: 21px 22px;
+    margin-left: 13px;
+    font-size: 16px;
+    
+}
+.btnsec2:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+.btnxmark{
+   border-radius: 100%;
+   border: 10px;
+   padding: 21px 22px;
+   margin-left: 13px;
+   font-size: 16px;
+   background-color: rgba(255, 166, 0, 0.849);
+}
+.btnxmark:hover{
+   cursor: pointer;
+   background-color: orange;
+}
+
+ 
+ .sec3{
+    margin-top: 20px;
+ }
+ .btnsec3{
+    border-radius: 100%;
+    border: 10px;
+    padding: 21px 22px;
+    margin-left: 13px;
+     font-size: 16px;
+}
+.btnsec3:hover{
+   cursor: pointer;
+   background-color: black;
+   color: white;
+}
+.btnminus{
+   border-radius: 100%;
+   border: 10px;
+   padding: 21px 22px;
+   margin-left: 13px;
+    font-size: 16px;
+    background-color: rgba(255, 166, 0, 0.849);
+}
+.btnminus:hover{
+   cursor: pointer;
+   background-color: orange;
+}
+ 
+ .sec4{
+    margin-top: 20px;
+ }
+ .btnsec4{
+    border-radius: 100%;
+    border: 10px;
+    padding: 21px 22px;
+    margin-left: 13px;
+    font-size: 16px;
+ }
+ .btnsec4:hover{
+   cursor: pointer;
+   background-color: black;
+   color: white;
+ }
+ .btnplus{
+   border-radius: 100%;
+    border: 10px;
+    padding: 21px 22px;
+    margin-left: 13px;
+    font-size: 16px;
+    background-color: rgba(255, 166, 0, 0.849);
+   
+ }
+ .btnplus:hover{
+   background-color: orange;
+   cursor: pointer;
+ }
+ .sec5{
+    margin-top: 20px;
+ }
+ .btnsec5{
+    border-radius: 100%;
+    border: 10px;
+    padding: 21px 22px;
+    margin-left: 13px;
+     
+ }
+ .btnsec5:hover{
+   cursor: pointer;
+   background-color: black;
+   color: white;
+ }
+ .btnequal{
+   border-radius: 100%;
+   border: 10px;
+   padding: 21px 22px;
+   margin-left: 15px;
+   background-color: rgba(255, 166, 0, 0.849);
+ }
+ .btnequal:hover{
+   background-color: orange;
+   cursor: pointer;
+ }
+.btn5{
+    border-radius: 30px;
+   padding: 15px 50px;
+   margin-left: 20px;
+ }
+ .btn5:hover{
+   cursor: pointer;
+   background-color: black;
+   color: white;
+ }
+ .fa-0{
+ font-size: 20px;
+ }
+ .fa-circle{
+    font-size:10px ;
+    
+ }
+ .fa-equals{
+   font-size:15px
+ }
+
+        /* media query for phone */
+ @media only screen and (max-width:480px){
+   body{
+      background-image: url(https://marketplace.canva.com/EAFUFiGX5ek/1/0/1600w/canva-colorful-watercolor-floral-linktree-background-qRHfsd-4Nmc.jpg);
+     background-repeat: no-repeat;
+   background-size: 100% 100%;
+      
+   } 
+   .container{
+ 
+      height: 100vh;
+    }
+    .h1{
+       color:darkblue;
+       margin-top: 10px;
+    }
+    .frame{
+       width: 390px;
+       height: 480px;
+       border: 3px solid rgba(102, 51, 153, 0.432);
+       perspective: 700px;
+    }
+    .shape{
+       width: 350;
+       height:480px ;
+       margin-top: -40px;
+       background-color: rgba(0, 0, 255, 0.103);
+       transition: all 3s ease;
+    }
+    .shape:hover{
+       transform: rotateX(20deg);
+    }
+    .row{
+      border: 1px solid;
+      border-radius: 10px;
+      height: 430px;
+      width: 250px;
+     /* background-color: rgb(144, 238, 144); */
+      /* background-color: rgba(0, 255, 255, 0.897); */
+      background-color: rgba(0, 0, 0, 0.247);
+      
+      margin-top: 40px;
+    
+  }
+  .box{
+      height: 80px;
+      width: 230px;
+     border: 1px solid;
+      border-radius: 10px;
+      margin-top: 10px;
+      background-color: white;
+  }
+  .boxh2{
+   text-align: right;
+   margin-top: 45px;
+   margin-right: 10px;
+   font-size: 30px;
+  }
+  
+  .sec1{
+     margin-top: 30px;
+  }
+  .btnsec1{
+      border-radius: 100%;
+      border: 10px;
+      padding: 20px 19px;
+      margin-left: 5px;
+      font-size: 10px;
+      background-color: rgba(0, 0, 0, 0.466);
+      color: white;
+  }
+  .btnsec1:hover{
+       cursor: pointer;
+       background-color: black;
+  }
+  .sec2{
+      margin-top: 10px;
+   }
+   .btnsec2{
+      border-radius: 100%;
+      border: 10px;
+      padding: 21px 22px;
+      margin-left: 4px;
+      font-size: 9px;
+      
+  }
+  .btnsec2:hover{
+      cursor: pointer;
+      background-color: black;
+      color: white;
+  }
+  .btnxmark{
+     border-radius: 100%;
+     border: 10px;
+     padding: 21px 22px;
+     margin-left: 5px;
+     font-size: 9px;
+     background-color: rgba(255, 166, 0, 0.849);
+  }
+  .btnxmark:hover{
+     cursor: pointer;
+     background-color: orange;
+  }
+  .sec3{
+   margin-top: 10px;
+}
+.btnsec3{
+   border-radius: 100%;
+   border: 10px;
+   padding: 21px 22px;
+   margin-left: 5px;
+    font-size: 9px;
+}
+.btnsec3:hover{
+  cursor: pointer;
+  background-color: black;
+  color: white;
+}
+.btnminus{
+  border-radius: 100%;
+  border: 10px;
+  padding: 21px 22px;
+  margin-left: 5px;
+   font-size: 9px;
+   background-color: rgba(255, 166, 0, 0.849);
+}
+.sec4{
+   margin-top: 10px;
+}
+.btnsec4{
+   border-radius: 100%;
+   border: 10px;
+   padding: 21px 22px;
+   margin-left: 5px;
+   font-size: 9px;
+}
+.btnsec4:hover{
+  cursor: pointer;
+  background-color: black;
+  color: white;
+}
+.btnplus{
+  border-radius: 100%;
+   border: 10px;
+   padding: 21px 22px;
+   margin-left: 5px;
+   font-size: 9px;
+   background-color: rgba(255, 166, 0, 0.849);
+  
+}
+.btnplus:hover{
+  background-color: orange;
+  cursor: pointer;
+}
+.sec5{
+   margin-top: 10px;
+}
+.btnsec5{
+   border-radius: 100%;
+   border: 10px;
+   padding: 15px 19px;
+   margin-left: 5px;
+    
+}
+.btnsec5:hover{
+  cursor: pointer;
+  background-color: black;
+  color: white;
+}
+.btnequal{
+  border-radius: 100%;
+  border: 10px;
+  padding: 17px 21px;
+  margin-left: 8px;
+  background-color: rgba(255, 166, 0, 0.849);
+}
+.btnequal:hover{
+  background-color: orange;
+  cursor: pointer;
+}
+.btn5{
+   border-radius: 30px;
+  padding: 15px 40px;
+  margin-left: 5px;
+}
+.btn5:hover{
+  cursor: pointer;
+  background-color: black;
+  color: white;
+}
+.fa-0{
+font-size: 15px;
+}
+.fa-circle{
+   font-size:7px ;
+   
+}
+.fa-equals{
+  font-size:10px
+}
+  
+   
+   
+
+
+ }
+ /* @media only screen and (min-width:481px) and (max-width:768px) {
+
+ } */
